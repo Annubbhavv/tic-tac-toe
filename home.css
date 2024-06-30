@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+body{
+    background-image: url("bg2.webp");
+    background-size: cover;
+
+}
+nav{
+    height: 3.5vw;
+    background-color: #7b7b7b;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 0 1vw;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+nav li{
+    opacity: .6;
+    padding:  0 2vw;
+    font-size: 1.5vw;
+    margin-left: 1vw;
+}
+
+nav li:hover{
+    opacity: 1;
+    /* background-color: #808081; */
+    border-radius: .25rem;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.home{
+    opacity: 1;
+    border-radius: .25rem;
+    box-shadow: 0 0 .25vw black;
+}
+
+.welcometext{
+    color: rgb(38, 37, 37);
+    padding: 2.5vw;
+    font-size: 1.3vw;
+    opacity: .9;
+}
+.rule{
+    padding: 2vw 3vw;
+}
+li{
+    font-size: 1.3vw;
+    line-height: 1.9vw;
+}
+h2{
+    margin-top: 2vw;
+    font-weight: 300;
+}
